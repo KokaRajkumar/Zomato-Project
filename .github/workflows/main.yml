@@ -136,7 +136,7 @@ jobs:
       github.event_name == 'workflow_dispatch'
     environment:
       name: production
-      url: https://hub.docker.com/r/${{ secrets.DOCKER_USER }}/zomato_new
+      url: https://hub.docker.com/r/zomato_new
     permissions:
       contents: read
       security-events: write
